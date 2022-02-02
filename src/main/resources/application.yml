@@ -1,0 +1,15 @@
+RedSky:
+  baseUri: https://redsky-uat.perf.target.com
+  getProductName: /redsky_aggregations/v1/redsky/case_study_v1?key=3yUxt7WltYG7MFKPp7uyELi1K40ad2ys&tcin={id}
+
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: admin
+      password: admin
+      authentication-database: admin
